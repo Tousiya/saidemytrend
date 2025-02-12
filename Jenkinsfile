@@ -14,7 +14,7 @@ pipeline {
 
          stage('SonarQube analysis') {
              environment {
-                 scannerHome = tool 'SonarQube-Cred'
+                 scannerHome = tool 'Sonar-cred'
            
              }
 
